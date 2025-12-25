@@ -6,8 +6,8 @@ Summary:	OpenStack Object Storage API Client Library
 URL:		https://pypi.org/project/python-swiftclient/
 License:	Apache License, Version 2.0
 Group:		Development/Python
-BuildRequires:	python
 BuildSystem:	python
+BuildRequires:	python%{pyver}dist(setuptools)
 BuildArch:	noarch
 
 %description

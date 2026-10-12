@@ -7,6 +7,8 @@ URL:		https://pypi.org/project/python-swiftclient/
 License:	Apache License, Version 2.0
 Group:		Development/Python
 BuildSystem:	python
+BuildRequires:	python%{pyver}dist(pbr)
+BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildArch:	noarch
 

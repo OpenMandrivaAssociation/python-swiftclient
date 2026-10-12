@@ -1,5 +1,5 @@
 Name:		python-swiftclient
-Version:	4.9.0
+Version:	4.11.0
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/p/python_swiftclient/python_swiftclient-%{version}.tar.gz
 Summary:	OpenStack Object Storage API Client Library

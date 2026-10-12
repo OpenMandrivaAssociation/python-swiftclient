@@ -20,5 +20,7 @@ OpenStack Object Storage API Client Library
 rm -rf releasenotes
 
 %files
+%{_bindir}/swift
+%{_mandir}/man1/swift.1*
 %{py_sitedir}/swiftclient
 %{py_sitedir}/python_swiftclient-*.*-info
